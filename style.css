@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Teko", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 115, 192);;
+    padding: 20px;
+    font-size: 32;
+    color: rgb(0, 115, 192);;
+}
+
+.chamada {
+    background: rgb(35, 0, 236);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-trailers {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-trailers img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-trailers img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(0, 21, 116);
+}
+
+.categoria h2{
+    color: rgb(0, 115, 192);
+}
